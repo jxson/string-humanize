@@ -1,0 +1,33 @@
+{
+  "name": "string-humanize",
+  "version": "0.0.0",
+  "description": "Transforms the input into a human friendly string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jxson/string-humanize.git"
+  },
+  "keywords": [
+    "string",
+    "strings",
+    "string.js",
+    "trim",
+    "capitalize",
+    "humanize"
+  ],
+  "author": "Jason Campbell <jason@js.la> (http://artifact.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxson/string-humanize/issues"
+  },
+  "testling": {
+    "files": "test-*.js",
+    "harness": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  }
+}
