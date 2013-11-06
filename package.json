@@ -1,6 +1,6 @@
 {
   "name": "string-humanize",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Transforms the input into a human friendly string.",
   "main": "index.js",
   "scripts": {
@@ -22,16 +22,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jxson/string-humanize/issues"
-  },
-  "testling": {
-    "files": "test-*.js",
-    "harness": "mocha"
-  },
-  "devDependencies": {
-    "mocha": "~1.14.0"
-  },
-  "dependencies": {
-    "string-capitalize": "~1.0.1"
   },
   "testling": {
     "files": "test-*.js",
@@ -58,5 +48,11 @@
         7
       ]
     }
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "dependencies": {
+    "string-capitalize": "~1.0.1"
   }
 }
