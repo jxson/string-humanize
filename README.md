@@ -13,7 +13,7 @@ I noticed that there was a TODO in [string.js][string-js-todo] to break things u
 
     npm install string-humanize
 
-# capitalize(string)
+# humanize(string)
 
 Transforms the input into a human friendly form
 
