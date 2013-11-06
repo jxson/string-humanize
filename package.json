@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "mocha": "~1.14.0"
+  },
+  "dependencies": {
+    "string-capitalize": "~1.0.1"
   }
 }
