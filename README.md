@@ -5,7 +5,7 @@ Transforms the input into a human friendly form (just the .humanize() function f
 
 [![NPM](https://nodei.co/npm/string-humanize.png)](https://nodei.co/npm/string-humanize/)
 
-[![browser support](https://ci.testling.com/jxson/string-capitalize.png)](https://ci.testling.com/jxson/string-capitalize)
+[![browser support](https://ci.testling.com/jxson/string-humanize.png)](https://ci.testling.com/jxson/string-humanize)
 
 I noticed that there was a TODO in [string.js][string-js-todo] to break things up into smaller modules so I thought I would help out.
 
