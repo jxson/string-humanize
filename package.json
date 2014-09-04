@@ -4,7 +4,7 @@
   "description": "Transforms the input into a human friendly string.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test-*.js"
+    "test": "prova test-humanize.js"
   },
   "repository": {
     "type": "git",
@@ -24,36 +24,20 @@
     "url": "https://github.com/jxson/string-humanize/issues"
   },
   "testling": {
-    "files": "test-*.js",
-    "harness": "mocha",
-    "browsers": {
-      "ie": [
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "ff": [
-        24,
-        25,
-        "nightly"
-      ],
-      "chrome": [
-        28,
-        29,
-        30,
-        "canary"
-      ],
-      "safari": [
-        "5.0.5",
-        "5.1",
-        "6.0"
-      ]
-    }
+    "files": "test-humanize.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
   },
   "devDependencies": {
-    "mocha": "~1.14.0"
+    "prova": "^1.14.0"
   },
   "dependencies": {
     "string-capitalize": "~1.0.1"
