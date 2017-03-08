@@ -1,20 +1,6 @@
 
 var capitalize = require('string-capitalize')
 
-module.exports = humanize
-
-function humanize(string){
-  string = string || ''
-  string = string.toString() // might be a number
-  string = string.trim()
-  string = string.replace(extname(string), '')
-  string = underscore(string)
-  string = string.replace(/[\W_]+/g, ' ')
-
-  return capitalize(string)
-}
-
-
 function underscore(string){
   string = string || ''
   string = string.toString() // might be a number
@@ -31,3 +17,16 @@ function extname(string){
 
   return (index === -1) ? '' : ext
 }
+
+function humanize(string){
+  string = string || ''
+  string = string.toString() // might be a number
+  string = string.trim()
+  string = string.replace(extname(string), '')
+  string = underscore(string)
+  string = string.replace(/[\W_]+/g, ' ')
+
+  return capitalize(string)
+}
+
+module.exports = humanize
