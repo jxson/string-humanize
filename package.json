@@ -1,6 +1,6 @@
 {
   "name": "string-humanize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforms the input into a human friendly string.",
   "main": "index.js",
   "scripts": {
