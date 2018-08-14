@@ -4,7 +4,7 @@
   "description": "Transforms the input into a human friendly string.",
   "main": "index.js",
   "scripts": {
-    "test": "prova test-humanize.js"
+    "test": "tape test-humanize.js"
   },
   "repository": {
     "type": "git",
