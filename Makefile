@@ -14,7 +14,7 @@ clean:
 	@$(RM) -fr npm-debug.log
 
 test: node_modules
-	prova test-humanize.js
+	tape test-humanize.js
 
 release:
 	npm version $(VERSION)

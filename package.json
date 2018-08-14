@@ -37,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "prova": "^1.14.0"
+    "tape": "^4.9.1"
   },
   "dependencies": {
     "string-capitalize": "~1.0.1"

@@ -1,8 +1,8 @@
 
-var test = require('prova')
+var test = require('tape')
 var humanize = require('./')
 
-test('humanize(string)', function(assert) {
+test('humanize(string)', function (assert) {
   assert.equal(humanize('super_snake_case'), 'Super snake case')
   assert.equal(humanize('capitalizedCamelCase'), 'Capitalized camel case')
   assert.equal(humanize('hyphen-case'), 'Hyphen case')
