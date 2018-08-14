@@ -1,5 +1,5 @@
 
-# string-humanize [![Build Status](https://travis-ci.org/jxson/string-humanize.png?branch=master)](https://travis-ci.org/jxson/string-humanize)
+# string-humanize [![Build Status](https://travis-ci.org/jxson/string-humanize.svg?branch=master)](https://travis-ci.org/jxson/string-humanize)
 
 Transforms the input into a human friendly form (just the .humanize() function from string.js).
 
